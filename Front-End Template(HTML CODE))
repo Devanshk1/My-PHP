@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="Viewport" content="width=device width,initial scale=1">
+	<title>CAPITAL_FIRST</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Assign.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="pull-left"><img src="https://lh3.googleusercontent.com/K_HH3XZTmoEHTQnhj3NVO1ByOCXO6mO1LnMHp0zNam2zkDytqKAL-GlPkZaSUGp3wVc" style= "display: inline-block;"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><strong>PRODUCTS</strong></a></li>
+        <li><a href="#"><strong>INVESTORS</strong></a></li>
+        <li><a href="#"><strong>INVESTOR PRESENTATION</strong></a></li>
+        <li><a href="#"><strong>ABOUT US</strong></a></li>
+        <li><a href="#"><strong>MEDIA</strong></a></li>
+        <li><a href="#"><strong>CAREERS</strong></a></li>
+        <li><a href="#"><strong>CUSTOMER SERVICE</strong></a></li>
+        <strong>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><button type="button" class="btn btn-default btn-xs"><strong>PAY EMI</strong></button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-default btn-xs"><strong>LOGIN</strong></button></a></li>        
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+ <div class="row">
+
+ <div class="col-lg-3" special><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1559138-200.png" class="setIt"><div class="progress">
+  <div class="progress-bar"  role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+ 	<p>Personal Details</p></div>
+  
+  <div class="col-lg-3" special><img src="https://cdn4.iconfinder.com/data/icons/staff-management-vol-1/72/45-512.png">
+  	<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div><p>Employment Details</p></div>
+
+<div class="col-lg-3" special><img src="https://cdn0.iconfinder.com/data/icons/admin-panel-linear-black/2048/Referrals-512.png">
+	<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div><p>References</p></div>
+
+<div class="col-lg-3" special><img src="https://previews.123rf.com/images/vladvm/vladvm1506/vladvm150601548/41361739-the-finish-icon-finish-symbol-flat-vector-illustration.jpg"><div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div><p>Finish</p></div>
+
+
+
+
+
+
+ 
+</div>
+
+
+<div class="jumbotron">
+ 
+    <h4>Please tell us a bit about yourself</h4>
+    <h6>Please fill your personal details. If required Capital First representative will get in touch to verify them. </h6>
+    <br>
+   <form>
+   <div class="container"><div class="row"><div class="col-lg-3"><select name="gender">
+   	<option value="Mr">Mr</option>
+   	<option value="Mrs">Mrs</option>
+   </select></div>
+
+   <div class="col-lg-3"><input type="text" name="First Name" 
+    placeholder="First Name"></div>
+
+   <div class="col-lg-3" setBorder><input type="text" name="Middle Name"  placeholder="Middle Name" ></div>
+
+   <div class="col-lg-3" setBorder><input type="text" name="Last Name" placeholder="Last Name"></div>
+
+
+</div>
+</div>
+<br>
+
+
+	<div class="row">
+<div class="col-lg-6"><p><h5>Gender</h5></p>
+
+<input type="radio" name="gender" checked>Male
+<input type="radio" name="gender" >Female</div>
+
+<div class="col-lg-6"><p><h5>Marital Status</h5></p>
+<input type="radio" name="Marital Status" required checked>Married
+<input type="radio" name="Marital Status" required>Single</div>
+
+</div>
+
+<br>
+<br>
+
+
+	<div class="row">
+		
+     <div class="col-lg-4"><p><h5>Date Of Birth</h5></p>
+     <select name="Month">
+	<option>Jan</option>
+	<option>Feb</option>
+	<option>Mar</option>
+	<option>Apr</option>
+	<option>May</option>
+	<option>Jun</option>
+	<option>Jul</option>
+	<option>Aug</option>
+	<option>Sep</option>
+	<option>Oct</option>
+	<option>Nov</option>
+	<option>Dec</option>
+	</select>
+	<select name="Day">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>
+		<option>14</option>
+		<option>15</option>
+		<option>16</option>
+		<option>17</option>
+		<option>18</option>
+		<option>19</option>
+		<option>20</option>
+		<option>21</option>
+		<option>22</option>
+		<option>23</option>
+		<option>24</option>
+		<option>25</option>
+		<option>26</option>
+		<option>27</option>
+		<option>28</option>
+		<option>29</option>
+		<option>30</option>
+		<option>31</option>
+		</select>
+
+		<select name="Year">
+			<option>1992</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+		</select>
+     </div>
+
+<div class="col-lg-4"><h5><i class="far fa-envelope"></i> Email Address</h5>
+<input id="email" type="email" name="email" placeholder="email" required></div>
+
+<div class="col-lg-4"><h5><i class="fas fa-phone"></i>Mobile Number</h5>
+<input type="number" name="number" placeholder="+91 Mobile Number"></div>
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+<br>
+<br>
+
+
+	<div class="row">
+<div class="col-lg-4"><h5>Select Qualification</h5><select name="Qualification">
+	<option>10th Pass</option>
+	<option>HIGH SCHOOL PASS/DIPLOMA</option>
+	<option>UNDERGRADUATE</option>
+	<option>POST GRADUATE</option>
+</select></div></div>
+
+<br>
+<br>
+
+
+
+<div class="row">
+	
+ <div class="col-lg-12"><h5>Father's Name</h5></div>
+
+
+</div>
+
+<div class="row">
+	 
+   <div class="col-lg-4"><i class="fas fa-user"></i> <input type="text" name="F_Name" placeholder="First Name"></div>
+   <div class="col-lg-4"><input type="text" name="M_Name" placeholder="Middle Name"></div>
+   <div class="col-lg-4"><input type="text" name="L_Name" placeholder="Last Name"></div>
+
+</div>
+	
+
+
+
+
+</div>
+
+
+
+
+	
+
+<div class="jumbotron">
+  <h4>Help us identify you</h4>
+  <p><h6>We require your Aadhar Number and PAN. Additionaly you can also provide other identification numbers as your chances of loan application increases with the number of identity cards provided.</h6></p>
+
+  <div class="row">
+  	  
+
+  	   <div class="col-lg-3"><i class="fas fa-id-card"></i> Identify Documents</div>
+  	   <div class="col-lg-3"><input type="number" name="A_no" placeholder="Aadhar Number*"></div>
+       <div class="col-lg-3"><input type="number" name="A_no" placeholder="PAN Number*"></div>
+        <div class="col-lg-3"><input type="file" id="exampleInputFile"></div>
+  </div>
+
+</div>
+
+<div class="jumbotron">
+  <h4>Tell us where you live</h4>
+  <p><h6>This will help us collect any documents if necessary</h6></p>
+
+  <div class="row">
+  	<div class="col-lg-6"><p><h5>Residence Address</h5></p></div>
+  </div>
+
+  <div class="row">
+  	<div class="col-lg-4"><i class="fas fa-map-pin"></i> <input type="text" name="Add_" placeholder="Address Line 1*"></div>
+  	<div class="col-lg-4"><i class="fas fa-map-pin"></i> <input type="text" name="Add_" placeholder="Address Line 2*"></div>
+  	<div class="col-lg-4"><i class="fas fa-map-pin"></i> <input type="text" name="Add_" placeholder="Address Line 3*"></div>
+  </div> 
+
+<br>
+<br>
+  <div class="row">
+  	
+   <div class="col-lg-4"><i class="fas fa-map-marker-alt"></i> <input type="text" name="LM" placeholder="Landmark"></div>
+   <div class="col-lg-4"><i class="fas fa-location-arrow"></i> <input type="number" name="Pincode" placeholder="Pincode"></div>
+
+
+  </div>
+   <br>
+   <br>
+  <div class="row">
+  	<div class="col-lg-6"><i class="fas fa-home"></i> <select>
+  		<option disabled selected>Select property type*</option>
+  		<option>Private</option>
+  		<option>Semi-Private</option>
+  		<option>Rental</option>
+  	</select></div>
+  </div>
+
+<br>
+<br>
+<div class="row">
+	
+  <div class="col-lg-6"><h5>Permanent Address</h5></div>
+
+
+
+
+</div>
+
+<div class="row">
+	<div class="col-lg-6"><h6 id="small">Is your permanent address same as residence address</h6></div>
+	<div class="col-lg-6"><button type="button" class="btn btn-active btn-sm active">Yes</button>
+<button type="button" class="btn btn-primary btn-sm active">No</button></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="pset"><button type="button" class="btn btn-default">BACK</button><button type="button" class="btn btn-primary">PROCEED</button>
+</p>
+
+  
+</div>
+</div>
+
+
+
+
+</form>
+
+
+</body>
+</html>
+
+
+<php
+
+if($_POST){
+	
+$x = $_POST['F_name'];
+$y = $_POST['M_name'];
+$z= $_POST['L_name'];
+
+echo "Welcome" .$x;
+     
+ 
+
+}
+
+
+?>
