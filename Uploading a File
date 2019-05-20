@@ -1,0 +1,44 @@
+<html><head>
+</head>
+<body>
+<form action="" method="POST" enctype="multipart/form-data">
+<input type="file" name="Doc"/>
+<input type="submit" value="submit"/>
+<ul>
+            <li>Sent file: <?php echo $_FILES['Doc']['name'];  ?>
+            <li>File size: <?php echo $_FILES['Doc']['size'];  ?>
+            <li>File type: <?php echo $_FILES['Doc']['type'] ?>
+         </ul>
+		</form> 
+</body>
+</html>
+<?php
+if(isset($_FILES['Doc'])){
+    
+    $errors=array();
+    $file_name=$_FILES['Doc']['name'];
+    $file_size=$_FILES['Doc']['size'];
+    $file_tmp=$_FILES['Doc']['tmp_name'];
+    $file_type=$_FILES['Doc']['type'];
+    $file_ext=strtolower(end(explode('.', $_FILES['Doc']['name'])));
+    
+    $extensions= array("doc","pdf","txt");
+    if(in_array($file_ext,$extensions)=== false){
+        $errors[]="extension not allowed, please choose a doc or PDF file.";
+    }
+    
+    if($file_size > 20097152){
+        $errors[]='File size must be excately 20 MB';
+    }
+    
+    if(empty($errors)==true){
+        move_uploaded_file($file_tmp,"docs/".$file_name);
+        echo "Success";
+    }else{
+        print_r($errors);
+    }
+    }
+?>
+
+
+
