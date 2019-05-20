@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+<form action="#" method="POST">
+Roll No:-<input type="number" name="rno"><br><br>
+Name:-<input type="text" name="name"><br><br>
+Age <input type="number" name="age"><br><br>
+Address:- <input type="text" name="city"><br><br>
+<input type="submit" value="submit"> 
+</form>
+</body>
+</html>
+<?php {
+	$rollno=$_POST["rno"];
+	$name=$_POST["name"];
+	//$age=$_POST["age"];
+	$address=$_POST["city"];
+	$text=$rollno.":".$name.":".$address.PHP_EOL;
+	$fp = fopen('studentdetails.txt', 'a');
+	fwrite($fp, $text);
+	fclose($fp); 
+}
+?>
