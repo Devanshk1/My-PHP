@@ -1,0 +1,56 @@
+img{
+	width:60px;
+	height: 50px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: red;
+    border-color: red;
+}
+
+.nav navbar-nav{
+	color: white;
+}
+
+#special{
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+
+#set{
+	display: inline-block;
+}
+
+h4{
+	text-align: center;
+}
+
+h6{
+	text-align: center;
+}
+
+#small{
+	text-align: left;
+}
+
+.btn btn-primary{
+	margin-left: 30%;
+}
+.set{
+	margin-left: 30%;
+}
+
+#pset{
+	margin-left: 40%;
+}
+
+.setBorder{
+
+
+ border-bottom: 1px solid black;
+
+ 
+
+
+}
