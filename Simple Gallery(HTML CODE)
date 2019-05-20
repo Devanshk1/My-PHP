@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+	<h1><strong>TECHNOLOGY</strong></h1>
+
+<table>
+	<tr>
+		<td><img src="http://smarterware.org/wp-content/uploads/2016/09/technology1.jpg"></td>
+		<td><img src="https://steemitimages.com/DQmaiDfS2A4iAJRimP1SLkKdyJQMhrHURcaZ5wjn5Nhioyu/trace-3157431__340.jpg"></td>
+		<td><img src="https://gatornews.org/wp-content/uploads/2015/09/Technology.jpg"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://www.insidecatholic.com/wp-content/uploads/2018/04/ThinkstockPhotos-478262402-2.jpg"></td>
+
+		<td><img src="https://www.ionexhibits.com/media/4962/tech-770x300.png"></a></td>
+		<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQxMpZlpZHfpEv_S5DeTTtwophBRBp1VgFzfk10wL4wYMpBL6h9w">
+		</td>
+			</tr>
+    <tr>
+    	<td><img src="https://www.wtn.net/sites/default/files/styles/seven-slideshow-6/public/seven-slideshow-images/MjUzMzMyMQ.jpeg?itok=Iwh3JHX7"></td>
+    	<td><img src="https://umaine.edu/set/wp-content/uploads/sites/103/2010/12/f07635fc24d8e33b3bddac1b15e6ea51-846x476.jpg"></td>
+    	<td><img src="http://108.179.210.38/~glotech3/wp-content/uploads/2017/02/tablet-pc.jpg"></td>
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>
